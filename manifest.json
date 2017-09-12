@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "quick-look-google-search-chrome-extension",
+  "description": "'Quick Look' Google Search Chrome Extension",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "g-icon.png",
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://*.google.com/*"
+  ]
+}
